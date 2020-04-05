@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+body{
+    background-color: rgb(112, 112, 112);
+    background-size: contain;
+    background-repeat: repeat-y;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+header{
+    height: 100px;
+    background-color:#B4B9E5; 
+    align-items: flex-end;
+    justify-content: space-between;
+    padding:1em;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+.animated:hover {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+
+.title{
+    margin-left: 1em;
+}
+
+.titlename{
+    margin-left: -20em;
+}
+.img-circle{
+    border-radius: 100%;
+}
+
+
+.container{
+    background-color: #E5DDF4;
+}
+
+.intro{
+    margin-top: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.3em;
+    line-height: 3em;
+}
+footer{
+    background-color:#B4B9E5; 
+    color:#000000;
+    display: flex;
+    justify-content: center;
+    padding:1em;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+.footerword{
+    font-weight: 300;
+    font-size: 12px;
+}
