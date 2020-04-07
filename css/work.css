@@ -42,8 +42,8 @@ header {
     background-color: #E5DDF4;
 }
 
-.mainimg {
-    max-width: 100%;
+.square {
+    height: max-content;
 }
 
 footer {
