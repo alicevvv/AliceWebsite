@@ -1,27 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
-body{
+body {
     background-color: rgb(112, 112, 112);
     background-size: contain;
     background-repeat: repeat-y;
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-header{
-    height: 100px;
-    background-color:#B4B9E5; 
+header {
+    height: 80px;
+    background-color: #B4B9E5;
     align-items: flex-end;
     justify-content: space-between;
-    padding:1em;
+    padding: 0.7em;
 }
 
-.title{
+.title {
     margin-left: 1em;
 }
 
-.titlename{
+.titlename {
     margin-left: -20em;
 }
-.img-circle{
+
+.img-circle {
     border-radius: 100%;
 }
 
@@ -30,27 +31,32 @@ header{
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-  }
+}
+
 .animated:hover {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-  }
+}
 
-.container{
+.container {
     background-color: #E5DDF4;
 }
 
-.mainimg{max-width:100%;}
+.mainimg {
+    max-width: 100%;
+}
 
-footer{display: flex;
+footer {
+    display: flex;
     justify-content: center;
-    background-color:#B4B9E5; 
-    color:#000000;
-    padding:1em;
+    background-color: #B4B9E5;
+    color: #000000;
+    padding: 1em;
     margin-left: -1em;
     margin-right: -1em;
 }
-.footerword{
+
+.footerword {
     font-weight: 300;
     font-size: 12px;
 }
