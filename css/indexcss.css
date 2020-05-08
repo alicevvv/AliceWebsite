@@ -29,18 +29,24 @@ img {
 
 .title {
     font-size: 2.5em;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
     font-weight: bolder;
-    opacity: 1;
 }
 
-.btn {
+.intro {
+    letter-spacing: 0.1em;
+}
+
+.btns {
     width: 2em;
     height: 2em;
     border-radius: 2em;
-    border: 0.3em #2d2d2d double;
-    background-color: #2d2d2db4;
+    background-color: #2d2d2d85;
     margin-top: 2em;
+}
+
+.btns:hover {
+    background-color: #2d2d2d;
 }
 
 @media (max-width: 767px) {
@@ -49,5 +55,11 @@ img {
     }
     .left {
         margin-top: 5vh;
+    }
+    .title {
+        font-size: 2em;
+    }
+    .intro {
+        font-size: 0.9em;
     }
 }
