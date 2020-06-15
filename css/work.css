@@ -39,11 +39,12 @@ header {
 }
 
 .container {
-    background-color: #E5DDF4;
+    background-color: #dfe9f5;
 }
 
 .square {
     height: max-content;
+    margin-top: 2em;
 }
 
 footer {

@@ -6,47 +6,59 @@ body {
 }
 
 .bgi {
-    z-index: -2;
-}
-
-img {
-    opacity: 0.4;
-    width: 85vw;
+    opacity: 0.8;
+    width: 100vw;
     height: 100vh;
+    z-index: 1;
 }
 
 .content {
-    width: 85vw;
+    width: 90vw;
 }
 
 .left {
-    margin-top: 65vh;
+    margin-top: 8vh;
     color: #2d2d2d;
     z-index: 2;
 }
 
-.right {}
+.right {
+    z-index: 3;
+}
+
+.myphoto {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+}
 
 .title {
-    font-size: 2.5em;
-    letter-spacing: 0.2em;
+    font-size: 2.3em;
+    letter-spacing: 0.05em;
     font-weight: bolder;
 }
 
 .intro {
-    letter-spacing: 0.1em;
+    font-size: 0.8em;
+    letter-spacing: 0.03em;
+}
+
+.modal {
+    z-index: 3;
+}
+
+.modal-dialog {
+    z-index: 3;
+}
+
+.btn-con {
+    z-index: 3;
 }
 
 .btns {
     width: 2em;
     height: 2em;
-    border-radius: 2em;
-    background-color: #2d2d2d85;
     margin-top: 2em;
-}
-
-.btns:hover {
-    background-color: #2d2d2d;
 }
 
 @media (max-width: 767px) {
