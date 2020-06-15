@@ -6,6 +6,16 @@ body {
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+a {
+    color: #2d2d2d;
+}
+
+.active {
+    color: #666666;
+    background-color: #fff;
+    border-radius: 1.5em;
+}
+
 header {
     height: 80px;
     background-color: #B4B9E5;
@@ -19,7 +29,8 @@ header {
 }
 
 .titlename {
-    margin-left: -20em;
+    margin-left: -25vw;
+    letter-spacing: 0.2em;
 }
 
 .img-circle {
@@ -45,6 +56,12 @@ header {
 .square {
     height: max-content;
     margin-top: 2em;
+}
+
+.square p {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    color: rgb(4, 5, 95);
 }
 
 footer {

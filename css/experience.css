@@ -14,12 +14,23 @@ header {
     padding: 0.7em;
 }
 
+a {
+    color: #2d2d2d;
+}
+
+.active {
+    color: #666666;
+    background-color: #fff;
+    border-radius: 1.5em;
+}
+
 .title {
     margin-left: 1em;
 }
 
 .titlename {
-    margin-left: -20em;
+    margin-left: -25vw;
+    letter-spacing: 0.2em;
 }
 
 .img-circle {
@@ -39,11 +50,24 @@ header {
 }
 
 .container {
-    background-color: #E5DDF4;
+    background-color: #dfe9f5;
 }
 
 .firstcard {
-    margin-top: 2em;
+    margin-top: 1em;
+}
+
+.othercard {
+    margin-top: 1em;
+}
+
+.card-title {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+}
+
+.card-text {
+    line-height: 1.1em;
 }
 
 .btn {

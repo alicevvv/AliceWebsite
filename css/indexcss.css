@@ -58,7 +58,14 @@ body {
 .btns {
     width: 2em;
     height: 2em;
-    margin-top: 2em;
+    margin-top: 75vh;
+    margin-right: 1vw;
+}
+
+.email {
+    margin-top: 2vh;
+    font-size: 1.3em;
+    color: #fefefe;
 }
 
 @media (max-width: 767px) {
