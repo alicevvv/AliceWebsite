@@ -49,14 +49,14 @@ a {
     border-radius: 100%;
 }
 
-.animate__animated {
+.animate__heartBeat {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 
-.animate__animated:hover {
+.animate__heartBeat:hover {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
