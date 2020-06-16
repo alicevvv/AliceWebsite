@@ -37,6 +37,14 @@ a {
     border: none;
 }
 
+.card-title {
+    color: #3c0646;
+}
+
+.card-text {
+    color: #696969;
+}
+
 .img-circle {
     border-radius: 100%;
 }
