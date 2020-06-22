@@ -2,14 +2,7 @@
 body {
     background-color: #fefefe;
     font-family: 'Noto Sans TC', sans-serif;
-    background-color: #e8e8e8;
-}
-
-.bgi {
-    opacity: 0.8;
-    width: 100vw;
-    height: 100vh;
-    z-index: 1;
+    background-color: #efe8e4;
 }
 
 .content {
@@ -48,6 +41,8 @@ body {
     z-index: 3;
 }
 
+.f1 {}
+
 .modal-dialog {
     z-index: 3;
 }
@@ -66,7 +61,7 @@ body {
 .email {
     margin-top: 2vh;
     font-size: 1.3em;
-    color: #fefefe;
+    color: #2d2d2d;
 }
 
 @media (max-width: 767px) {
