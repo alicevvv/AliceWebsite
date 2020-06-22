@@ -12,11 +12,6 @@ body {
 .left {
     margin-top: 8vh;
     color: #2d2d2d;
-    z-index: 2;
-}
-
-.right {
-    z-index: 3;
 }
 
 .mup {
@@ -41,14 +36,6 @@ body {
     color: #5d73a1;
 }
 
-.modal {
-    z-index: 3;
-}
-
-.modal-dialog {
-    z-index: 3;
-}
-
 .btns {
     width: 2em;
     height: 2em;
@@ -57,7 +44,7 @@ body {
 
 .email {
     margin-top: 2vh;
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #2d2d2d;
 }
 
@@ -69,8 +56,9 @@ body {
     display: none;
 }
 
-.rightup {
-    height: 70vh;
+.rightarea {
+    width: 100%;
+    height: 20%;
 }
 
 @media (max-width: 769px) {
@@ -79,10 +67,15 @@ body {
     }
     .all,
     .left,
-    .right {
+    .middle,
+    .right,
+    .rightarea {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .left {
+        margin-top: 4vh;
     }
     .title {
         font-size: 2em;
@@ -92,12 +85,27 @@ body {
     }
     .intropic {
         display: block;
-        margin-top: -5em;
+        margin-top: -3em;
     }
     .flowers {
         display: none;
     }
-    .rightup {
-        height: 160vh;
+    .email {
+        font-size: 1.2em;
+    }
+    .right {
+        margin-top: 200vh;
+    }
+}
+
+@media (max-width: 426px) {
+    .right {
+        margin-top: 80vh;
+    }
+}
+
+@media (max-width: 376px) {
+    .right {
+        margin-top: 60vh;
     }
 }
