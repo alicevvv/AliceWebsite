@@ -17,11 +17,15 @@ a {
 }
 
 header {
-    height: 80px;
+    height: 5em;
     background-color: #B4B9E5;
     align-items: flex-end;
     justify-content: space-between;
     padding: 0.7em;
+}
+
+.tomain {
+    width: 4em;
 }
 
 .title {
@@ -29,7 +33,7 @@ header {
 }
 
 .titlename {
-    margin-left: -25vw;
+    margin-left: 1em;
     letter-spacing: 0.2em;
 }
 
@@ -78,6 +82,7 @@ footer {
 .footerword {
     font-weight: 300;
     font-size: 12px;
+    text-align: center;
 }
 
 .animated.headShake {
@@ -88,3 +93,13 @@ footer {
     --animate-duration: 800ms;
     --animate-delay: 0.9s;
 }
+
+.mail {
+    color: #0f2658;
+}
+
+.mail:hover {
+    color: #1f48a8;
+}
+
+@media (max-width: 769px) {}
