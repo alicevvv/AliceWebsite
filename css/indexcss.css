@@ -19,6 +19,10 @@ body {
     z-index: 3;
 }
 
+.mup {
+    height: 50vh;
+}
+
 .myphoto {
     width: 8em;
     height: 8em;
@@ -41,40 +45,59 @@ body {
     z-index: 3;
 }
 
-.f1 {}
-
 .modal-dialog {
-    z-index: 3;
-}
-
-.btn-con {
     z-index: 3;
 }
 
 .btns {
     width: 2em;
     height: 2em;
-    margin-top: 75vh;
     margin-right: 1vw;
 }
 
 .email {
     margin-top: 2vh;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: #2d2d2d;
 }
 
-@media (max-width: 767px) {
+.email:hover {
+    color: #5d73a1;
+}
+
+.intropic {
+    display: none;
+}
+
+.rightup {
+    height: 70vh;
+}
+
+@media (max-width: 769px) {
     .img {
         display: none;
     }
-    .left {
-        margin-top: 5vh;
+    .all,
+    .left,
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .title {
         font-size: 2em;
     }
     .intro {
         font-size: 0.9em;
+    }
+    .intropic {
+        display: block;
+        margin-top: -5em;
+    }
+    .flowers {
+        display: none;
+    }
+    .rightup {
+        height: 160vh;
     }
 }
