@@ -34,7 +34,7 @@ header {
 
 .titlename {
     margin-left: 1em;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
 }
 
 .img-circle {
@@ -63,10 +63,24 @@ header {
     margin-bottom: 2em;
 }
 
-.square p {
+.square h4 {
     font-size: 1.2em;
     letter-spacing: 0.1em;
     color: rgb(4, 5, 95);
+}
+
+.square p {
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.bios {
+    color: #7849c5;
+}
+
+.bios:hover {
+    color: #56338f;
+    text-decoration: none;
 }
 
 footer {
@@ -102,4 +116,11 @@ footer {
     color: #1f48a8;
 }
 
-@media (max-width: 769px) {}
+@media(max-width:768px) {
+    header {
+        height: 7em;
+    }
+    nav {
+        font-size: 0.8em;
+    }
+}

@@ -31,7 +31,7 @@ body {
 }
 
 .intro {
-    font-size: 0.8em;
+    font-size: 1.1em;
     letter-spacing: 0.03em;
     color: #5d73a1;
 }
@@ -50,6 +50,7 @@ body {
 
 .email:hover {
     color: #5d73a1;
+    text-decoration: none;
 }
 
 .intropic {

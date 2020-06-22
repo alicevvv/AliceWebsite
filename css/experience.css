@@ -33,12 +33,13 @@ a {
 }
 
 .titlename {
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     margin-left: 1em;
 }
 
 .card {
     border: none;
+    flex-direction: row;
 }
 
 .card-title {
@@ -114,4 +115,16 @@ footer {
 
 .mail:hover {
     color: #1f48a8;
+}
+
+@media(max-width:768px) {
+    .card {
+        flex-direction: column;
+    }
+    header {
+        height: 7em;
+    }
+    nav {
+        font-size: 0.8em;
+    }
 }
