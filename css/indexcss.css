@@ -100,12 +100,18 @@ body {
 
 @media (max-width: 426px) {
     .right {
-        margin-top: 80vh;
+        margin-top: 75vh;
     }
 }
 
 @media (max-width: 376px) {
     .right {
         margin-top: 60vh;
+    }
+}
+
+@media (max-width: 321px) {
+    .right {
+        margin-top: 40vh;
     }
 }
