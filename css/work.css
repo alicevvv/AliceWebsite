@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
 body {
-    background-color: #efe8e4;
+    background-color: #dfe9f5;
     background-size: contain;
     background-repeat: repeat-y;
     font-family: 'Noto Sans TC', sans-serif;
@@ -10,6 +10,17 @@ a {
     color: #2d2d2d;
 }
 
+.tabs {
+    margin-top: 3vh;
+}
+
+.tabbtn {
+    border-radius: 0.3em;
+    border: none;
+    background-color: rgb(249, 252, 255);
+    letter-spacing: 0.1em;
+}
+
 .active {
     color: #666666;
     background-color: #fff;
@@ -17,19 +28,15 @@ a {
 }
 
 header {
-    height: 5em;
+    width: 100vw;
+    height: 3.5em;
     background-color: #B4B9E5;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 0.7em;
 }
 
 .tomain {
-    width: 4em;
-}
-
-.title {
-    margin-left: 1em;
+    width: 3em;
 }
 
 .titlename {
@@ -53,14 +60,15 @@ header {
     animation-iteration-count: infinite;
 }
 
-.container {
-    background-color: #dfe9f5;
-}
+.webwork {}
 
 .square {
     height: max-content;
     margin-top: 2em;
     margin-bottom: 2em;
+    background-color: aliceblue;
+    width: 25em;
+    height: 25em;
 }
 
 .square h4 {
