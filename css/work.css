@@ -60,26 +60,58 @@ header {
     animation-iteration-count: infinite;
 }
 
-.webwork {}
-
 .square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: max-content;
-    margin-top: 2em;
-    margin-bottom: 2em;
     background-color: aliceblue;
-    width: 25em;
-    height: 25em;
+    width: 400px;
+    height: 400px;
+    margin: 2em;
 }
 
 .square h4 {
-    font-size: 1.2em;
+    font-size: 1.6em;
     letter-spacing: 0.1em;
-    color: rgb(4, 5, 95);
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5em;
 }
 
 .square p {
-    text-align: center;
     letter-spacing: 0.2em;
+}
+
+.work1:hover .work1info {
+    opacity: 100%;
+}
+
+.work2:hover .work2info {
+    opacity: 100%;
+}
+
+.work3:hover .work3info {
+    opacity: 100%;
+}
+
+.work4:hover .work4info {
+    opacity: 100%;
+}
+
+.work1info,
+.work2info,
+.work3info,
+.work4info {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.726);
 }
 
 .bios {
