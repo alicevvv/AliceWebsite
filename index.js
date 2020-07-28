@@ -41,17 +41,32 @@ function f3() {
 function web() {
     var x = document.getElementById("web");
     var y = document.getElementById("graphic");
+    var z = document.getElementById("ui");
     if (x.style.display === "none") {
         x.style.display = "block";
         y.style.display = "none";
+        z.style.display = "none";
     }
 };
 
 function graphic() {
     var x = document.getElementById("web");
     var y = document.getElementById("graphic");
+    var z = document.getElementById("ui");
     if (y.style.display === "none") {
         x.style.display = "none";
         y.style.display = "block";
+        z.style.display = "none";
     }
 };
+
+function ui() {
+    var x = document.getElementById("web");
+    var y = document.getElementById("graphic");
+    var z = document.getElementById("ui");
+    if (z.style.display === "none") {
+        x.style.display = "none";
+        y.style.display = "none";
+        z.style.display = "block";
+    }
+}

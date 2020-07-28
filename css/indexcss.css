@@ -57,12 +57,23 @@ body {
     width: 29vw;
 }
 
-@media (max-width: 769px) {}
+@media (max-width: 1025px) {
+    .intropic {
+        margin-top: 15vh;
+        width: 75vw;
+    }
+    .middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
 
-@media (max-width: 570px) {}
-
-@media (max-width: 426px) {}
-
-@media (max-width: 376px) {}
-
-@media (max-width: 321px) {}
+@media (max-width: 376px) {
+    .right {
+        margin-top: 3vh;
+    }
+    .intropic {
+        margin-top: 6vh;
+    }
+}
