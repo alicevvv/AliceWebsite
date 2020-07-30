@@ -190,3 +190,19 @@ footer {
         font-size: 0.8em;
     }
 }
+
+@media(max-width:376px) {
+    header {
+        height: 2.8em;
+    }
+    .tomain {
+        width: 2em;
+    }
+    .titlename h5 {
+        font-size: 0.8em;
+    }
+    .nav-link {
+        font-size: 0.7em;
+        padding: 0.5em;
+    }
+}
