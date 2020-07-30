@@ -191,7 +191,7 @@ footer {
     }
 }
 
-@media(max-width:376px) {
+@media(max-width:426px) {
     header {
         height: 2.8em;
     }
@@ -202,7 +202,7 @@ footer {
         font-size: 0.8em;
     }
     .nav-link {
-        font-size: 0.7em;
+        font-size: 0.8em;
         padding: 0.5em;
     }
 }
