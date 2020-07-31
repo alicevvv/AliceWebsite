@@ -1,4 +1,7 @@
 # AliceWebsite
-#try to save my photo. QQ
-#try my img ˋ^ˊ Finally saved them QQ
-#Now, RWD, gogo!!!
+This is my personal website
+Do my best to design and coding
+hope you know more about me!
+
+link : https://alicevvv.github.io/AliceWebsite/index.html
+email : alicev871203@gmail.com
