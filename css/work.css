@@ -20,6 +20,10 @@ a {
     background-color: rgb(249, 252, 255);
     letter-spacing: 0.1em;
 }
+.tabbtn:hover{
+    background-color: #d8daee;
+    
+}
 
 .active {
     color: #666666;
